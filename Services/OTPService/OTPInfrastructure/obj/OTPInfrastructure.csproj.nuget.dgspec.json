@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "/Users/dhiraj/Downloads/DotNet Project/HireDrive/HireDrive/Services/OTPService/OTPInfrastructure/OTPINfrastructure.csproj": {}
+    "/Users/dhiraj/Downloads/DotNet Project/HireDrive/HireDrive/Services/OTPService/OTPInfrastructure/OTPInfrastructure.csproj": {}
   },
   "projects": {
-    "/Users/dhiraj/Downloads/DotNet Project/HireDrive/HireDrive/Services/OTPService/OTPInfrastructure/OTPINfrastructure.csproj": {
+    "/Users/dhiraj/Downloads/DotNet Project/HireDrive/HireDrive/Services/OTPService/OTPInfrastructure/OTPInfrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/dhiraj/Downloads/DotNet Project/HireDrive/HireDrive/Services/OTPService/OTPInfrastructure/OTPINfrastructure.csproj",
-        "projectName": "OTPINfrastructure",
-        "projectPath": "/Users/dhiraj/Downloads/DotNet Project/HireDrive/HireDrive/Services/OTPService/OTPInfrastructure/OTPINfrastructure.csproj",
+        "projectUniqueName": "/Users/dhiraj/Downloads/DotNet Project/HireDrive/HireDrive/Services/OTPService/OTPInfrastructure/OTPInfrastructure.csproj",
+        "projectName": "OTPInfrastructure",
+        "projectPath": "/Users/dhiraj/Downloads/DotNet Project/HireDrive/HireDrive/Services/OTPService/OTPInfrastructure/OTPInfrastructure.csproj",
         "packagesPath": "/Users/dhiraj/.nuget/packages/",
         "outputPath": "/Users/dhiraj/Downloads/DotNet Project/HireDrive/HireDrive/Services/OTPService/OTPInfrastructure/obj/",
         "projectStyle": "PackageReference",
