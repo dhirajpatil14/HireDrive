@@ -1,0 +1,16 @@
+/Users/dhiraj/Downloads/DotNet Project/HireDrive/HireDrive/Services/OTPService/OTPInfrastructure/bin/Debug/net9.0/OTPINfrastructure.deps.json
+/Users/dhiraj/Downloads/DotNet Project/HireDrive/HireDrive/Services/OTPService/OTPInfrastructure/bin/Debug/net9.0/OTPINfrastructure.dll
+/Users/dhiraj/Downloads/DotNet Project/HireDrive/HireDrive/Services/OTPService/OTPInfrastructure/bin/Debug/net9.0/OTPINfrastructure.pdb
+/Users/dhiraj/Downloads/DotNet Project/HireDrive/HireDrive/Services/OTPService/OTPInfrastructure/bin/Debug/net9.0/OTPApplication.dll
+/Users/dhiraj/Downloads/DotNet Project/HireDrive/HireDrive/Services/OTPService/OTPInfrastructure/bin/Debug/net9.0/OTPApplication.pdb
+/Users/dhiraj/Downloads/DotNet Project/HireDrive/HireDrive/Services/OTPService/OTPInfrastructure/obj/Debug/net9.0/OTPINfrastructure.csproj.AssemblyReference.cache
+/Users/dhiraj/Downloads/DotNet Project/HireDrive/HireDrive/Services/OTPService/OTPInfrastructure/obj/Debug/net9.0/OTPINfrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dhiraj/Downloads/DotNet Project/HireDrive/HireDrive/Services/OTPService/OTPInfrastructure/obj/Debug/net9.0/OTPINfrastructure.AssemblyInfoInputs.cache
+/Users/dhiraj/Downloads/DotNet Project/HireDrive/HireDrive/Services/OTPService/OTPInfrastructure/obj/Debug/net9.0/OTPINfrastructure.AssemblyInfo.cs
+/Users/dhiraj/Downloads/DotNet Project/HireDrive/HireDrive/Services/OTPService/OTPInfrastructure/obj/Debug/net9.0/OTPINfrastructure.csproj.CoreCompileInputs.cache
+/Users/dhiraj/Downloads/DotNet Project/HireDrive/HireDrive/Services/OTPService/OTPInfrastructure/obj/Debug/net9.0/OTPINfrastructure.sourcelink.json
+/Users/dhiraj/Downloads/DotNet Project/HireDrive/HireDrive/Services/OTPService/OTPInfrastructure/obj/Debug/net9.0/OTPINfra.558846F3.Up2Date
+/Users/dhiraj/Downloads/DotNet Project/HireDrive/HireDrive/Services/OTPService/OTPInfrastructure/obj/Debug/net9.0/OTPINfrastructure.dll
+/Users/dhiraj/Downloads/DotNet Project/HireDrive/HireDrive/Services/OTPService/OTPInfrastructure/obj/Debug/net9.0/refint/OTPINfrastructure.dll
+/Users/dhiraj/Downloads/DotNet Project/HireDrive/HireDrive/Services/OTPService/OTPInfrastructure/obj/Debug/net9.0/OTPINfrastructure.pdb
+/Users/dhiraj/Downloads/DotNet Project/HireDrive/HireDrive/Services/OTPService/OTPInfrastructure/obj/Debug/net9.0/ref/OTPINfrastructure.dll

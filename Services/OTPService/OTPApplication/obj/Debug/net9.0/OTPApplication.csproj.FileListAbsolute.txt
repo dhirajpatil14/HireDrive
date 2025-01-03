@@ -1,0 +1,12 @@
+/Users/dhiraj/Downloads/DotNet Project/HireDrive/HireDrive/Services/OTPService/OTPApplication/bin/Debug/net9.0/OTPApplication.deps.json
+/Users/dhiraj/Downloads/DotNet Project/HireDrive/HireDrive/Services/OTPService/OTPApplication/bin/Debug/net9.0/OTPApplication.dll
+/Users/dhiraj/Downloads/DotNet Project/HireDrive/HireDrive/Services/OTPService/OTPApplication/bin/Debug/net9.0/OTPApplication.pdb
+/Users/dhiraj/Downloads/DotNet Project/HireDrive/HireDrive/Services/OTPService/OTPApplication/obj/Debug/net9.0/OTPApplication.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dhiraj/Downloads/DotNet Project/HireDrive/HireDrive/Services/OTPService/OTPApplication/obj/Debug/net9.0/OTPApplication.AssemblyInfoInputs.cache
+/Users/dhiraj/Downloads/DotNet Project/HireDrive/HireDrive/Services/OTPService/OTPApplication/obj/Debug/net9.0/OTPApplication.AssemblyInfo.cs
+/Users/dhiraj/Downloads/DotNet Project/HireDrive/HireDrive/Services/OTPService/OTPApplication/obj/Debug/net9.0/OTPApplication.csproj.CoreCompileInputs.cache
+/Users/dhiraj/Downloads/DotNet Project/HireDrive/HireDrive/Services/OTPService/OTPApplication/obj/Debug/net9.0/OTPApplication.sourcelink.json
+/Users/dhiraj/Downloads/DotNet Project/HireDrive/HireDrive/Services/OTPService/OTPApplication/obj/Debug/net9.0/OTPApplication.dll
+/Users/dhiraj/Downloads/DotNet Project/HireDrive/HireDrive/Services/OTPService/OTPApplication/obj/Debug/net9.0/refint/OTPApplication.dll
+/Users/dhiraj/Downloads/DotNet Project/HireDrive/HireDrive/Services/OTPService/OTPApplication/obj/Debug/net9.0/OTPApplication.pdb
+/Users/dhiraj/Downloads/DotNet Project/HireDrive/HireDrive/Services/OTPService/OTPApplication/obj/Debug/net9.0/ref/OTPApplication.dll

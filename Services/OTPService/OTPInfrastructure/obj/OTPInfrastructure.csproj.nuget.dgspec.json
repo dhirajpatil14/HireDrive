@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/dhiraj/Downloads/DotNet Project/HireDrive/HireDrive/Services/OTPService/OTPInfrastructure/OTPInfrastructure.csproj": {}
+    "/Users/dhiraj/Downloads/DotNet Project/HireDrive/HireDrive/Services/OTPService/OTPInfrastructure/OTPINfrastructure.csproj": {}
   },
   "projects": {
-    "/Users/dhiraj/Downloads/DotNet Project/HireDrive/HireDrive/Services/OTPService/OTPInfrastructure/OTPInfrastructure.csproj": {
+    "/Users/dhiraj/Downloads/DotNet Project/HireDrive/HireDrive/Services/OTPService/OTPApplication/OTPApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/dhiraj/Downloads/DotNet Project/HireDrive/HireDrive/Services/OTPService/OTPInfrastructure/OTPInfrastructure.csproj",
-        "projectName": "OTPInfrastructure",
-        "projectPath": "/Users/dhiraj/Downloads/DotNet Project/HireDrive/HireDrive/Services/OTPService/OTPInfrastructure/OTPInfrastructure.csproj",
+        "projectUniqueName": "/Users/dhiraj/Downloads/DotNet Project/HireDrive/HireDrive/Services/OTPService/OTPApplication/OTPApplication.csproj",
+        "projectName": "OTPApplication",
+        "projectPath": "/Users/dhiraj/Downloads/DotNet Project/HireDrive/HireDrive/Services/OTPService/OTPApplication/OTPApplication.csproj",
         "packagesPath": "/Users/dhiraj/.nuget/packages/",
-        "outputPath": "/Users/dhiraj/Downloads/DotNet Project/HireDrive/HireDrive/Services/OTPService/OTPInfrastructure/obj/",
+        "outputPath": "/Users/dhiraj/Downloads/DotNet Project/HireDrive/HireDrive/Services/OTPService/OTPApplication/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/dhiraj/.nuget/NuGet/NuGet.Config"
@@ -43,6 +43,75 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/dhiraj/Downloads/DotNet Project/HireDrive/HireDrive/Services/OTPService/OTPInfrastructure/OTPINfrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/dhiraj/Downloads/DotNet Project/HireDrive/HireDrive/Services/OTPService/OTPInfrastructure/OTPINfrastructure.csproj",
+        "projectName": "OTPINfrastructure",
+        "projectPath": "/Users/dhiraj/Downloads/DotNet Project/HireDrive/HireDrive/Services/OTPService/OTPInfrastructure/OTPINfrastructure.csproj",
+        "packagesPath": "/Users/dhiraj/.nuget/packages/",
+        "outputPath": "/Users/dhiraj/Downloads/DotNet Project/HireDrive/HireDrive/Services/OTPService/OTPInfrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/dhiraj/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/dhiraj/Downloads/DotNet Project/HireDrive/HireDrive/Services/OTPService/OTPApplication/OTPApplication.csproj": {
+                "projectPath": "/Users/dhiraj/Downloads/DotNet Project/HireDrive/HireDrive/Services/OTPService/OTPApplication/OTPApplication.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.8.24, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
