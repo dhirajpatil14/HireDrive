@@ -3,6 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{910957D9-80AD-4232-9159-62428D347420}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OTPService", "OTPService", "{EDC4156D-3074-4F91-9E33-5EF8665E39E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OTP", "Services\OTPService\OTP\OTP.csproj", "{A599A7E6-964E-4822-BC1C-D042900396AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OTPINfrastructure", "Services\OTPService\OTPInfrastructure\OTPINfrastructure.csproj", "{D53392D7-918C-452F-AFC3-802169E7E90F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OTPApplication", "Services\OTPService\OTPApplication\OTPApplication.csproj", "{C3FF65BD-03BE-4683-A8B8-6436C8E81D3B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,5 +20,25 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A599A7E6-964E-4822-BC1C-D042900396AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A599A7E6-964E-4822-BC1C-D042900396AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A599A7E6-964E-4822-BC1C-D042900396AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A599A7E6-964E-4822-BC1C-D042900396AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D53392D7-918C-452F-AFC3-802169E7E90F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D53392D7-918C-452F-AFC3-802169E7E90F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D53392D7-918C-452F-AFC3-802169E7E90F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D53392D7-918C-452F-AFC3-802169E7E90F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3FF65BD-03BE-4683-A8B8-6436C8E81D3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3FF65BD-03BE-4683-A8B8-6436C8E81D3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3FF65BD-03BE-4683-A8B8-6436C8E81D3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3FF65BD-03BE-4683-A8B8-6436C8E81D3B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EDC4156D-3074-4F91-9E33-5EF8665E39E9} = {910957D9-80AD-4232-9159-62428D347420}
+		{A599A7E6-964E-4822-BC1C-D042900396AF} = {EDC4156D-3074-4F91-9E33-5EF8665E39E9}
+		{D53392D7-918C-452F-AFC3-802169E7E90F} = {EDC4156D-3074-4F91-9E33-5EF8665E39E9}
+		{C3FF65BD-03BE-4683-A8B8-6436C8E81D3B} = {EDC4156D-3074-4F91-9E33-5EF8665E39E9}
 	EndGlobalSection
 EndGlobal
