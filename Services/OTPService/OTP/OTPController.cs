@@ -35,17 +35,6 @@ namespace OTP
 
             return BadRequest(new {Message = "Invalid or Expired OTP"});
         }
-
-        public IActionResult Index()
-        {
-            return View();
-        }
-
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View("Error!");
-        }
     }
 }
 
