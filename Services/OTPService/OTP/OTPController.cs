@@ -9,12 +9,13 @@ using OTPApplication.Interfaces.Service;
 
 namespace OTP
 {
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class OTPController(ILogger<OTPController> logger, IOtpService otpService) : Controller
     {
         private readonly ILogger<OTPController> _logger = logger;
         private readonly IOtpService _otpService = otpService;
 
+        [HttpPost("generate")]
         public async Task<ActionResult<string>> GenerateOtpAsync(string identifier)
         {
             if(string.IsNullOrEmpty(identifier))
@@ -24,6 +25,7 @@ namespace OTP
             return Ok(new { Otp = otp, Message = "OTP Generated Successfully."});
         }
 
+        [HttpPost("validate")]
         public async Task<ActionResult> ValidateOtpAsync(OtpValidationRequest request)
         {
             if(string.IsNullOrEmpty(request.Identifier) || string.IsNullOrEmpty(request.Otp))
