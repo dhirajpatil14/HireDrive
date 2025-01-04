@@ -7,6 +7,7 @@ namespace NotificationApplication.Interfaces.Services
 {
     public interface IOtpService
     {
-        
+        Task<string> GenerateOtpAsync(string identifier);
+        Task<bool> ValidateOtpAsync(string identifier, string otp);
     }
 }
