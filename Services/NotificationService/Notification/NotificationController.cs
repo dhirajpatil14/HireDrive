@@ -3,8 +3,9 @@ using NotificationApplication.Interfaces.Services;
 
 namespace Notification
 {
-    [Route("[controller]")]
-    public class NotificationController(ILogger<NotificationController> logger, IOtpService otpService) : Controller
+    [Route("api/[controller]")]
+    [ApiController]
+    public class NotificationController(ILogger<NotificationController> logger, IOtpService otpService) : ControllerBase
     {
         private readonly ILogger<NotificationController> _logger = logger;
         private readonly IOtpService _otpService = otpService;
