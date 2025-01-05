@@ -10,8 +10,8 @@ namespace Notification
         private readonly ILogger<NotificationController> _logger = logger;
         private readonly IOtpService _otpService = otpService;
 
-        [HttpPost("generate")]
-        public async Task<ActionResult<string>> GenerateOtpAsync(string identifier)
+        [HttpGet("generate")]
+        public async Task<ActionResult<string>> GenerateOtpAsync(string identifier = "9867103005")
         {
             if(string.IsNullOrEmpty(identifier))
                 return BadRequest("Identifier cannot be null or empty");
@@ -20,7 +20,7 @@ namespace Notification
             return Ok(new { Otp = otp, Message = "OTP Generated Successfully."});
         }
 
-        [HttpPost("validate")]
+        [HttpGet("validate")]
         public async Task<ActionResult> ValidateOtpAsync(OtpValidationRequest request)
         {
             if(string.IsNullOrEmpty(request.Identifier) || string.IsNullOrEmpty(request.Otp))

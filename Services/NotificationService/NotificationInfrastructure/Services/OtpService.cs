@@ -1,12 +1,13 @@
 using System.Collections.Concurrent;
 using NotificationApplication.Interfaces.Services;
-using StackExchange.Redis;
 
 namespace NotificationInfrastructure.Services
 {
-    public class OtpService(IConnectionMultiplexer redis) : IOtpService
+    public class OtpService(
+        // IConnectionMultiplexer redis
+        ) : IOtpService
     {
-        private readonly IDatabase _redis = redis.GetDatabase();
+        // private readonly IDatabase _redis = redis.GetDatabase();
 
         private readonly ConcurrentDictionary<string, (string otp, DateTime Expiry)> _otpStore = new();
 
